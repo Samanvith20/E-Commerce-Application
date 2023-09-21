@@ -1,5 +1,7 @@
 import React from 'react';
 import Header from '../Header';
+import AllProductsSection from '../AllProductsSection'
+import PrimeDealsSection from '../PrimeDealsSection';
 import './index.css';
 
 const ProductsPage = () => (
@@ -11,6 +13,8 @@ const ProductsPage = () => (
         alt="products"
         className="products-img"
       />
+        <PrimeDealsSection />
+      <AllProductsSection />
     </div>
   </>
 );
