@@ -1,0 +1,72 @@
+/* Home.css */
+
+/* Home container styles */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    background-color: #f5f5f5; /* Background color for the home component */
+  }
+  
+  /* Home content styles */
+  .home-content {
+    max-width: 800px; /* Maximum width of the content */
+    margin: 0 auto;
+  }
+  
+  /* Home heading styles */
+  .home-heading {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+  
+  /* Home mobile image styles */
+  .home-mobile-img {
+    width: 100%; /* Adjust the width as needed */
+    max-width: 400px; /* Maximum width of the image */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: 20px;
+  }
+  
+  /* Home description styles */
+  .home-description {
+    margin-top: 20px;
+    color: #333; /* Text color */
+  }
+  
+  /* Shop now button styles */
+  .shop-now-button {
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+  }
+  
+  .shop-now-button:hover {
+    background-color: #0056b3; /* Hover color for the button */
+  }
+  
+  /* Home desktop image styles */
+  .home-desktop-img {
+    display: none; /* Hide the desktop image by default for mobile view */
+    width: 100%; /* Adjust the width as needed */
+    max-width: 800px; /* Maximum width of the image */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: 20px;
+  }
+  
+  /* Media query for displaying the desktop image on larger screens */
+  @media (min-width: 768px) {
+    .home-desktop-img {
+      display: block;
+    }
+  }
+  

@@ -1,0 +1,74 @@
+/* Header.css */
+
+/* Navigation header styles */
+.nav-header {
+    background-color: #007bff; /* Background color for the navigation header */
+    color: #fff; /* Text color */
+    padding: 10px 0;
+  }
+  
+  /* Navigation content container */
+  .nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px; /* Maximum width of the header content */
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Website logo styles */
+  .website-logo {
+    width: 150px; /* Adjust the logo width as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  /* Navigation menu styles */
+  .nav-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #fff; /* Link text color */
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #ffbf00; /* Hover color for links */
+  }
+  
+  /* Logout button styles */
+  .logout-desktop-btn {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .logout-desktop-btn:hover {
+    color: #ffbf00; /* Hover color for the logout button */
+  }
+  
+  .logout-mobile-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Logout icon styles */
+  .logout-icon {
+    width: 20px; /* Adjust the icon width as needed */
+    height: 20px; /* Adjust the icon height as needed */
+    fill: #fff; /* Icon color */
+  }
+  
+  /* Additional styles can be added as needed */
+  
